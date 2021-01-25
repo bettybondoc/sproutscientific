@@ -1,0 +1,33 @@
+body {
+
+}
+
+main {
+	height: 500px;
+	width: 500px;
+	background: #E5E3E3;
+	padding: 20px;
+}
+
+input {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,.57);
+	padding-bottom: 5px;
+	width: 60%;
+	/*font-family: 'Roboto', sans-serif;
+	color: rgba(0, 0, 0, 0.88);*/
+}
+
+input::placeholder {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(0, 0, 0, 0.88);
+}
+
+.btn {
+	background: #009688;
+	padding: 14.5px 14.5px 12px 12px;
+	border-radius: 50%;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+	
+}
